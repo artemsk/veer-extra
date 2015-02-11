@@ -1,0 +1,20 @@
+{
+    "name": "artemsk/veer-extra",
+    "description": "Extra components, commands, events for Veer.",
+    "authors": [
+        {
+            "name": "Artyom Troshin",
+            "email": "garcia82@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "artemsk/veer": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Veer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
